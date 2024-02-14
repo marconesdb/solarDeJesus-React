@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white relative z-10">
+    <nav className="bg-white fixed top-0 left-0 right-0 z-10">
       <div className="container mx-auto px-2 md:px-4">
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
@@ -60,13 +60,24 @@ const Navbar = () => {
               Início
             </Link>
 
-            {/* Dropdown "Quem Somos" */}
             <Menu as="div" className="relative z-20">
               <Menu.Button className="text-gray-800 px-3 py-2 rounded-md text-sm font-medium border-b border-transparent hover:border-orange400 hover:text-gray-500 transition duration-300">
                 Quem Somos
               </Menu.Button>
               <Menu.Items className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <div className="px-1 py-1">
+                <Menu.Item>
+                    {({ active }) => (
+                      <Link
+                        to="/nossahistoria"
+                        className={`${
+                          active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'
+                        } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                      >
+                        Nossa História
+                      </Link>
+                    )}
+                  </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
                       <Link
@@ -119,7 +130,6 @@ const Navbar = () => {
               </Menu.Items>
             </Menu>
 
-            {/* Dropdown "Doutrina Espírita" */}
             <Menu as="div" className="relative z-20">
               <Menu.Button className="text-gray-800 px-3 py-2 rounded-md text-sm font-medium border-b border-transparent hover:border-orange400 hover:text-gray-500 transition duration-300">
                 Doutrina Espírita
@@ -199,13 +209,17 @@ const Navbar = () => {
             >
               Início
             </Link>
-
-            {/* Dropdown "Quem Somos" no menu móvel */}
             <div>
-              <button className="text-black   hover:bg-orange400 hover:text-white block w-full px-3 py-2 rounded-md text-base font-medium">
+              <button className="text-black hover:bg-orange400 hover:text-white block w-full px-3 py-2 rounded-md text-base font-medium">
                 Quem Somos
               </button>
               <div className="px-2 py-1">
+              <Link
+                  to="/nossahistoria"
+                  className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                 Nossa História
+                </Link>
                 <Link
                   to="/galeria"
                   className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -232,8 +246,6 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
-
-            {/* Dropdown "Doutrina Espírita" no menu móvel */}
             <div>
               <button className="text-black hover:bg-orange400 hover:text-white block w-full px-3 py-2 rounded-md text-base font-medium">
                 Doutrina Espírita
@@ -255,25 +267,22 @@ const Navbar = () => {
                   to="/doutrinaespirita/link3"
                   className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Livro de Orações
+                 Orações
                 </Link>
               </div>
             </div>
-
             <Link
               to="/transmissao"
               className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Transmissões Online
             </Link>
-
             <Link
               to="/doacoes"
               className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Doações
             </Link>
-
             <Link
               to="/contato"
               className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"

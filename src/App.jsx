@@ -12,6 +12,7 @@ import Galeria from './pages/quemsomos/Galeria'
 import NossosMomentos from './pages/quemsomos/NossosMomentos'
 import NossosTrabalhos from './pages/quemsomos/NossosTrabalhos'
 import Homenageados from './pages/quemsomos/Homenageados'
+import NossaHistoria from './pages/quemsomos/NossaHistoria'
 function App() {
  
   
@@ -24,6 +25,7 @@ function App() {
      <Route path='/nossosmomentos' element={<NossosMomentos/>}/>
      <Route path='/nossostrabalhos' element={<NossosTrabalhos/>}/>
      <Route path='/homenageados' element={<Homenageados/>}/>
+     <Route path='/nossahistoria' element={<NossaHistoria/>}/>
      <Route path='/doutrinaespirita' element={<DoutrinaEspirita/>}/>
      <Route path='/obrasbasicas' element={<ObrasBasicas/>}/>
      <Route path='/artigosespiritas' element={<ArtigosEspiritas/>}/>
