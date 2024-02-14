@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
-
+import img1 from '../DoutrinaEspirita/ObrasBasicas/O Evangelho Segundo o Espiritismo/O Evangelho Segundo o Espiritismo -Espanhol.png'
+import img2 from '../DoutrinaEspirita/ObrasBasicas/O Evangelho Segundo o Espiritismo/O Evangelho Segundo o Espiritismo -Inglês.png'
+import img3 from '../DoutrinaEspirita/ObrasBasicas/O Evangelho Segundo o Espiritismo/O Evangelho Segundo o Espiritismo -Português.png'
 function BasicWorks() {
   return (
     <div>
@@ -48,7 +50,56 @@ function BasicWorks() {
           {/* Seu texto em espanhol aqui */}
           <p className='text-justify mx-4' >... Las obras básicas del espiritismo constituyen un conjunto fundamental de textos que sirven de fundamento doctrinal a los seguidores de esta filosofía espiritista... Las obras básicas del espiritismo constituyen un conjunto fundamental de textos que sirven de fundamento doctrinal a los seguidores de esta filosofía espiritista. Fueron codificados por Allan Kardec, seudónimo del educador y escritor francés Hippolyte Léon Denizard Rivail, en el siglo XIX. Estas obras, compuestas por cinco libros, son consideradas los fundamentos del espiritismo, ofreciendo enseñanzas sobre la naturaleza, origen y destino de los espíritus, así como la relación entre el mundo material y espiritual. 1. **El Libro de los Espíritus:** Publicado en 1857, es la obra inaugural de codificación. En este libro, Kardec presenta una serie de preguntas a los espíritus a través de médiums, explorando temas como Dios, el alma, la reencarnación y la evolución espiritual. 2. **El Libro de los Médiums:** Lanzado en 1861, está dedicado al estudio de las manifestaciones mediúmnicas. Kardec explora los diferentes tipos de mediumnidad, sus características y los cuidados necesarios para una práctica mediúmnica responsable. 3. **El Evangelio según el Espiritismo:** Publicado en 1864, es una recopilación de las enseñanzas morales de Jesús a la luz del espiritismo. Propone reflexiones sobre temas como la caridad, el perdón y el amor al prójimo, fomentando la práctica del Evangelio en la vida cotidiana. 4. **Cielo e Infierno:** Escrito en 1865, aborda el tema de la vida después de la muerte, presentando un análisis de las diferentes situaciones espirituales que viven los espíritus después de la desencarnación. 5. **El Génesis:** Publicado en 1868, explora el origen del planeta Tierra y de los seres vivos a la luz de la doctrina espírita. Kardec aborda temas como la pluralidad de mundos habitados, la creación y la influencia de los espíritus en la evolución de la humanidad. Estas obras, cuando se estudian juntas, proporcionan una comprensión integral de los principios espirituales. Estimulan el desarrollo moral e intelectual de los practicantes, además de brindar orientación para una vida más plena, basada en la fraternidad, la solidaridad y la superación espiritual.</p>
         </div>
+        
       </div>
+     
+     <h1 className='text-center mt-4'>O Evangelho Segundo o Espiritismo</h1>
+{/* Container com imagens e texto */}
+<div className="flex flex-col md:flex-row md:justify-between items-center py-8 container mx-auto border-orange300 border-2 mt-4">
+  <div className="md:w-1/2 text-center md:text-left">
+    <div className="flex flex-wrap justify-center md:justify-start">
+      <img src={img1} alt="Imagem 1" className="w-48 h-48   mx-2 mb-2" />
+      <img src={img2} alt="Imagem 2" className="w-48 h-48   mx-2 mb-2" />
+      <img src={img3} alt="Imagem 3" className="w-48 h-48   mx-2 mb-2" />
+    </div>
+  </div>
+  <div className="md:w-1/2 text-black text-center md:text-left mt-4 md:mt-0">
+    
+  <div className="content">
+      <div className="message-text">
+        <p><b>O Evangelho Segundo O Espiritismo - Português</b></p>
+        <p><i>Download do Arquivo</i></p>
+        <p>Clique no link abaixo para baixar o arquivo:</p>
+
+        <p><b>The gospel According to spiritism - English</b></p>
+        <p><i>File Download</i></p>
+        <p>Click on the link below to download the file:</p>
+        <a href="../documents/O Evangelho Segundo o Espiritismo/O Evangelho Segundo O Espiritismo - Inglês.pdf" className="bg-black100 text-white rounded" style={} download="The gospel According to spiritism - English.pdf">File Download</a>
+        
+        
+
+
+
+        <p><b> El evangelio según el espiritismo - Español</b></p>
+        <p><i>Descarga de archivos</i></p>
+        <p>Haga clic en el siguiente enlace para descargar el archivo:</p>
+        <a href="../documents/O Evangelho Segundo o Espiritismo/O Evangelho Segundo O Espiritismo - Espanhol.pdf" className="" download="El evangelio según el espiritismo - Español.pdf">Descarga de archivos</a>
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
     </div>
   );
 }
