@@ -18,6 +18,7 @@ export default {
         orange800:'#7c2d12',
         orange900:'#431407',
         black:'#020617',
+        black100:'#333',
     },
   },
   plugins: [],
