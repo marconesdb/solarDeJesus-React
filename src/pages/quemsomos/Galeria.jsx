@@ -23,26 +23,26 @@ const images1 = [
     // Adicione mais imagens conforme necessário
 ];
 
-const images2 = [
-    {
-        original: img1,
-        thumbnail: img1,
-        description: 'Salão de Palestras'
-    },
+// const images2 = [
+//     {
+//         original: img1,
+//         thumbnail: img1,
+//         description: 'Salão de Palestras'
+//     },
 
-    {
-      original: img2,
-      thumbnail: img2,
-      description: 'Biblioteca'
-  },
+//     {
+//       original: img2,
+//       thumbnail: img2,
+//       description: 'Biblioteca'
+//   },
 
-  {
-    original: img3,
-    thumbnail: img3,
-    description: 'Biblioteca'
-},
-    // Adicione mais imagens conforme necessário
-];
+//   {
+//     original: img3,
+//     thumbnail: img3,
+//     description: 'Biblioteca'
+// },
+//     // Adicione mais imagens conforme necessário
+// ];
 
 const Galeria = () => {
     return (
