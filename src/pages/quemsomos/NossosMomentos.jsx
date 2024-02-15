@@ -1,12 +1,83 @@
-import React from 'react'
-import Footer from '../../Footer'
-import Navbar from '../../Navbar'
+import React, { useState } from 'react';
+import Footer from '../../Footer';
+import Navbar from '../../Navbar';
+import ReactPlayer from 'react-player';
+import thumbnailImage1 from './img-nossosmomentos/Snapinsta.app_403962682_316885447826703_1152426539391938943_n_1080.jpg';
+
 export default function NossosMomentos() {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedVideo, setSelectedVideo] = useState('');
+
+  const videos = [
+    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: 'Video 1', thumbnail: thumbnailImage1 },
+    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: 'Video 2', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
+    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: 'Video 1', thumbnail: thumbnailImage1 },
+    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: 'Video 2', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
+    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: 'Video 1', thumbnail: thumbnailImage1 },
+    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: 'Video 2', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
+    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: 'Video 1', thumbnail: thumbnailImage1 },
+    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: 'Video 2', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
+
+    // Adicione mais vídeos conforme necessário
+  ];
+
+  const openModal = (videoUrl) => {
+    setSelectedVideo(videoUrl);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setSelectedVideo('');
+    setModalOpen(false);
+  };
+
   return (
     <div>
-      <Navbar/>
-      <h1>NossosMomentos</h1>
-      <Footer/>
+      <Navbar />
+      <div className="container mx-auto py-8 px-4">
+        <h1 className="text-3xl font-semibold text-center mb-8 mt-28">Nossos Momentos</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          {videos.map((video) => (
+            <div key={video.id} className="relative">
+              <img
+                src={video.thumbnail}
+                alt={video.title}
+                className="w-full h-64 sm:h-80 md:h-96 object-cover cursor-pointer"
+                onClick={() => openModal(video.url)}
+              />
+              <p className="absolute inset-x-0 bottom-0 bg-black bg-opacity-50 text-white text-center py-2">
+                {video.title}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+      {modalOpen && (
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-900 bg-opacity-75">
+          <div className="relative w-full max-w-screen-lg h-full">
+            <button className="absolute top-4 right-4 text-white z-10" onClick={closeModal}>
+              Fechar
+            </button>
+            <ReactPlayer
+              url={selectedVideo}
+              width="100%"
+              height="100%"
+              controls
+              playing
+              className="react-player"
+            />
+          </div>
+        </div>
+      )}
+      <Footer />
+      <style jsx>{`
+        @media (max-width: 640px) {
+          .absolute.top-4.right-4 {
+            top: 2rem;
+            right: 2rem;
+          }
+        }
+      `}</style>
     </div>
-  )
+  );
 }

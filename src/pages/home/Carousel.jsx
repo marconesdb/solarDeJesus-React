@@ -33,16 +33,16 @@ export default function Carousel() {
     <div className="container mx-auto">
       <div className="relative">
         <button
-          className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white px-3 py-1 rounded-l focus:outline-none"
+          className="absolute top-1/2 left-0 transform -translate-y-1/2  text-white px-3 py-1 rounded-l focus:outline-none"
           onClick={prevImage}
         >
-          Previous
+          
         </button>
         <button
           className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white px-3 py-1 rounded-r focus:outline-none"
           onClick={nextImage}
         >
-          Next
+          
         </button>
         <img src={images[currentImageIndex]} alt={`Slide ${currentImageIndex + 1}`} className="w-full" />
       </div>

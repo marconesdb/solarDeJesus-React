@@ -74,7 +74,7 @@ function BasicWorks() {
         <p><b>The gospel According to spiritism - English</b></p>
         <p><i>File Download</i></p>
         <p>Click on the link below to download the file:</p>
-        <a href="../documents/O Evangelho Segundo o Espiritismo/O Evangelho Segundo O Espiritismo - Inglês.pdf" className="bg-black100 text-white rounded" style={} download="The gospel According to spiritism - English.pdf">File Download</a>
+        <a href="../documents/O Evangelho Segundo o Espiritismo/O Evangelho Segundo O Espiritismo - Inglês.pdf" className="bg-black100 text-white rounded" download="The gospel According to spiritism - English.pdf">File Download</a>
         
         
 
