@@ -252,19 +252,19 @@ const Navbar = () => {
               </button>
               <div className="px-2 py-1">
                 <Link
-                  to="/doutrinaespirita/obrasbasicas"
+                  to="/obrasbasicas"
                   className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Obras Básicas
                 </Link>
                 <Link
-                  to="/doutrinaespirita/link2"
+                  to="/artigosespiritas"
                   className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Artigos Espíritas
                 </Link>
                 <Link
-                  to="/doutrinaespirita/link3"
+                  to="/oracoes"
                   className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                  Orações
