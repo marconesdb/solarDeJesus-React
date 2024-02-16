@@ -19,9 +19,7 @@ const images1 = [
     }
 ];
 
-const images2 = [
-    // Defina as imagens para a segunda galeria aqui, se necessário
-];
+
 
 const Galeria = () => {
     return (
@@ -38,13 +36,7 @@ const Galeria = () => {
 
                 {/* Adicione aqui a segunda galeria de fotos, se necessário */}
 
-                <h2 className="text-2xl font-bold my-8"></h2>
-                <div className="sm:hidden"> {/* Visível apenas em dispositivos móveis */}
-                    <ImageGallery items={images2} showThumbnails={false} />
-                </div>
-                <div className="hidden sm:block"> {/* Visível apenas em dispositivos desktop */}
-                    <ImageGallery items={images2} />
-                </div>
+               
             </div>
             <Footer />
         </div>
