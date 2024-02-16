@@ -1,51 +1,70 @@
-import React, { useState, useEffect } from 'react';
-import image1 from './img-carousel/Captura de Tela (4035).png';
-import image2 from './img-carousel/Captura de Tela (4036).png';
-import image3 from './img-carousel/Captura de Tela (4037).png';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import slide1 from '../home/img-carousel/Captura de Tela (4035).png';
+import slide2 from '../home/img-carousel/Captura de Tela (4036).png';
+import slide3 from '../home/img-carousel/Captura de Tela (4035).png';
 
 export default function Carousel() {
-  const images = [image1, image2, image3];
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const slides = [
+    slide1,
+    slide2,
+    slide3,
+  ];
 
-  const nextImage = () => {
-    const newIndex = (currentImageIndex + 1) % images.length;
-    setCurrentImageIndex(newIndex);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          arrows: false,
+        },
+      },
+    ],
   };
 
-  const prevImage = () => {
-    const newIndex = (currentImageIndex - 1 + images.length) % images.length;
-    setCurrentImageIndex(newIndex);
+  const mobileImageStyle = {
+    height: window.innerWidth >= 768 ? '' : '300px', // Defina a altura para dispositivos móveis
+    objectFit: 'cover', // Garante que a imagem cubra o espaço disponível
+    width: '100%', // Garante que a imagem ocupe toda a largura disponível
   };
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextImage();
-    }, 3000); // Altere este valor para ajustar o intervalo de tempo entre os slides (em milissegundos)
-
-    return () => clearInterval(interval);
-  }, [currentImageIndex]);
 
   return (
-    <div className="container mx-auto h-screen flex items-start justify-center pt-10 ">
-      <div className="relative h-96 w-full">
-        <button
-          className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white px-3 py-1 rounded-l focus:outline-none"
-          onClick={prevImage}
-        >
-          
-        </button>
-        <button
-          className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white px-3 py-1 rounded-r focus:outline-none"
-          onClick={nextImage}
-        >
-          
-        </button>
-        <img
-          src={images[currentImageIndex]}
-          alt={`Slide ${currentImageIndex + 1}`}
-          className="w-full h-full object-cover mt-20"
-        />
-      </div>
+    <div className="mx-4 md:mx-8">
+      <Slider {...settings}>
+        {slides.map((slide, index) => (
+          <div key={index}>
+            <img
+              src={slide}
+              alt={`Slide ${index}`}
+              style={mobileImageStyle}
+            />
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 }

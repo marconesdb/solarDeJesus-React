@@ -1,60 +1,55 @@
-import React from 'react'
-import  Navbar from '../../Navbar'
-import  Footer from '../../Footer'
-import Carousel from './Carousel'
-import bannerVoluntariosDaAlegria from '../quemsomos/img-nossostrabalhos/Voluntários da Alegria.jpeg'
-import Modal from '../home/Modal'
+import React, { useState, useEffect } from 'react';
+import Navbar from '../../Navbar';
+import Footer from '../../Footer';
+import image1 from './img-carousel/Captura de Tela (4035).png'; // Adicione o caminho correto para image1
+import image2 from './img-carousel/Captura de Tela (4036).png'; // Adicione o caminho correto para image2
+import image3 from './img-carousel/Captura de Tela (4037).png'; // Adicione o caminho correto para image3
+
+import myImage from '../home/img-home/DSCN9271.jpg';
+import Banner from '../home/Banner';
+import Modal from '../home/Modal';
+import Carousel from './Carousel';
 
 export default function Home() {
+  const images = [image1, image2, image3];
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  
+  const nextImage = () => {
+    const newIndex = (currentImageIndex + 1) % images.length;
+    setCurrentImageIndex(newIndex);
+  };
+
+  const prevImage = () => {
+    const newIndex = (currentImageIndex - 1 + images.length) % images.length;
+    setCurrentImageIndex(newIndex);
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextImage();
+    }, 3000); // Altere este valor para ajustar o intervalo de tempo entre os slides (em milissegundos)
+
+    return () => clearInterval(interval);
+  }, [currentImageIndex]);
+
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Carousel/>
-      {/* Banner Voluntários da Alegria */}
-      <div className="container mx-auto px-4 py-8 md:flex md:items-center md:justify-between   -mt-96">
-      <div className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
-        <img
-          className=" object-center w-full h-64 md:h-auto md:w-full"
-          src={bannerVoluntariosDaAlegria}
-          alt="Imagem"
-        />
-      </div>
-      <div className="md:w-1/2 md:pl-4  bg-orange500 text-white rounded-bl-3xl rounded-tr-3xl">
-        <h2 className="text-2xl font-bold mb-4">"Seja um Voluntário da Alegria:</h2>
-        <p className=" ml-4 text-lg flex justify-center items-center">
-        ofereça seu amor ao próximo, doando seu tempo e proporcionando consolo moral e espiritual." 
-        </p>
-      </div>
-    </div>
-
-    {/* Fim- Banner Voluntários da Alegria */}
-
-
-    {/* ========== */}
-
-    <Modal/>
      
-
-    {/* IMG - Oração */}
-
-
-    {/* Fim - IMG Oração */}
-
-    {/* ========== */}
- 
-
-    {/* Localização */}
-
-
-
-    {/* Fim - Localização */}
-
-
-
-    {/* ============ */}
-      <Footer/>
+      <Modal />
+       <Banner />
+      {/* IMG - Oração */}
+      <h1 className="flex justify-center items-center font-bold text-3xl">Momento de Oração</h1>
+      <p className="flex justify-center items-center  text-2xl">Creche - Solar de Jesus</p>
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex justify-center">
+          <img src={myImage} alt="Imagem" className="max-w-full h-auto" />
+        </div>
+      </div>
+      {/* Fim - IMG Oração */}
+      
+      <Footer />
     </div>
-  )
+  );
 }
