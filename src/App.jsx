@@ -15,6 +15,7 @@ import Homenageados from './pages/quemsomos/Homenageados'
 import NossaHistoria from './pages/quemsomos/NossaHistoria'
 import Caridade from './pages/DoutrinaEspirita/ArtigosEspiritas/Caridade'
 import Coragem from './pages/DoutrinaEspirita/ArtigosEspiritas/Coragem'
+import MensagemEnviada from './pages/contato/MensagemEnviada'
 
 
 
@@ -42,6 +43,7 @@ function App() {
      <Route path='/transmissao' element={<Transmissao/>}/>
      <Route path='/doacoes' element={<Doacoes/>}/>
      <Route path='/contato' element={<Contato/>}/>
+     <Route path='/mensagemenviada' element={<MensagemEnviada/>}/>
      <Route path='*' element={<h1>Not Found</h1>}/>
    </Routes>
    </BrowserRouter>
