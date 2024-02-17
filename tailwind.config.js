@@ -19,6 +19,7 @@ export default {
         orange900:'#431407',
         black:'#020617',
         black100:'#333',
+        blue700:'#0369a1',
     },
   },
   plugins: [],

@@ -13,6 +13,13 @@ import NossosMomentos from './pages/quemsomos/NossosMomentos'
 import NossosTrabalhos from './pages/quemsomos/NossosTrabalhos'
 import Homenageados from './pages/quemsomos/Homenageados'
 import NossaHistoria from './pages/quemsomos/NossaHistoria'
+import Caridade from './pages/DoutrinaEspirita/ArtigosEspiritas/Caridade'
+import Coragem from './pages/DoutrinaEspirita/ArtigosEspiritas/Coragem'
+
+
+
+
+
 function App() {
  
   
@@ -29,6 +36,8 @@ function App() {
      <Route path='/doutrinaespirita' element={<DoutrinaEspirita/>}/>
      <Route path='/obrasbasicas' element={<ObrasBasicas/>}/>
      <Route path='/artigosespiritas' element={<ArtigosEspiritas/>}/>
+     <Route path='/caridade' element={<Caridade/>}/>
+     <Route path='/coragem' element={<Coragem/>}/>
      <Route path='/oracoes' element={<Oracoes/>}/>
      <Route path='/transmissao' element={<Transmissao/>}/>
      <Route path='/doacoes' element={<Doacoes/>}/>
