@@ -10,5 +10,5 @@
 
 /* Aplicando a animação à imagem */
 .banner-slide-animation {
-  animation: slideFromLeft 8s ease-out;
+  animation: slideFromLeft 40s ease-out;
 }
