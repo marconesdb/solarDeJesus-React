@@ -1,6 +1,7 @@
 import React from 'react';
 import bannerVoluntariosDaAlegria from '../quemsomos/img-nossostrabalhos/Voluntários da Alegria.jpeg';
 import Carousel from './Carousel'; // Importando o componente do carrossel
+import '../home/Banner.css/styles.css'; // Importando o arquivo CSS do banner
 
 export default function Banner() {
   return (
@@ -9,9 +10,9 @@ export default function Banner() {
       <div className="relative">
         {/* Banner Voluntários da Alegria */}
         <div className="-mt-24 md:-mt-16 flex flex-col md:flex-row items-center justify-center md:justify-between px-4 py-8 md:px-0 -z-10">
-          <div className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
+          <div className="md:w-1/2 md:pr-4 mb-4 md:mb-0 overflow-hidden">
             <img
-              className="w-76 h-auto md:w-full md:h-auto"
+              className="w-76 h-auto md:w-full md:h-auto banner-slide-animation"
               src={bannerVoluntariosDaAlegria}
               alt="Imagem"
             />

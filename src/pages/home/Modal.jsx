@@ -15,7 +15,7 @@ const Modal = ({ isOpen, onClose, imgSrc, imgAlt }) => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-      <div className="bg-white max-w-4xl p-4 rounded-lg shadow-lg relative">
+      <div className="bg-white max-w-4xl p-4 rounded-lg shadow-lg relative scale-100 transform transition-transform duration-300">
         <button className="absolute top-0 right-0 mt-2 mr-2 text-gray-600 hover:text-gray-900" onClick={onClose}>
           Fechar
         </button>
@@ -37,7 +37,7 @@ const ImageContainer = ({ src, alt }) => {
 
   return (
     <>
-      <div className="w-full md:w-64 h-80 flex items-center justify-center border border-gray-300 rounded-lg overflow-hidden mx-auto cursor-pointer" onClick={() => setModalOpen(true)}>
+      <div className={`w-full md:w-64 h-80 flex items-center justify-center border border-gray-300 rounded-lg overflow-hidden mx-auto cursor-pointer transition duration-300 transform hover:scale-105`} onClick={() => setModalOpen(true)}>
         <img
           className="object-cover object-center w-full h-full"
           src={src}

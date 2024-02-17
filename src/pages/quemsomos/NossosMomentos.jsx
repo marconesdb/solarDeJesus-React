@@ -9,16 +9,14 @@ export default function NossosMomentos() {
   const [selectedVideo, setSelectedVideo] = useState('');
 
   const videos = [
-    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: 'Video 1', thumbnail: thumbnailImage1 },
-    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: 'Video 2', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
-    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: 'Video 1', thumbnail: thumbnailImage1 },
-    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: 'Video 2', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
-    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: 'Video 1', thumbnail: thumbnailImage1 },
-    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: 'Video 2', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
-    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: 'Video 1', thumbnail: thumbnailImage1 },
-    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: 'Video 2', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
-
-    // Adicione mais vídeos conforme necessário
+    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: '', thumbnail: thumbnailImage1 },
+    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: '', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
+    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: '', thumbnail: thumbnailImage1 },
+    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: '', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
+    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: '', thumbnail: thumbnailImage1 },
+    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: '', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
+    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: '', thumbnail: thumbnailImage1 },
+    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: '', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
   ];
 
   const openModal = (videoUrl) => {
@@ -45,9 +43,6 @@ export default function NossosMomentos() {
                 className="w-full h-64 sm:h-80 md:h-96 object-cover cursor-pointer"
                 onClick={() => openModal(video.url)}
               />
-              <p className="absolute inset-x-0 bottom-0 bg-black bg-opacity-50 text-white text-center py-2">
-                {video.title}
-              </p>
             </div>
           ))}
         </div>
@@ -70,14 +65,6 @@ export default function NossosMomentos() {
         </div>
       )}
       <Footer />
-      <style jsx>{`
-        @media (max-width: 640px) {
-          .absolute.top-4.right-4 {
-            top: 2rem;
-            right: 2rem;
-          }
-        }
-      `}</style>
     </div>
   );
 }
