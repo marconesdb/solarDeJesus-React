@@ -52,7 +52,7 @@ export default function NossosTrabalhos() {
 
       {/* Trabalhadores da Última Hora */}
       <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
-        <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center -mb-24">
+        <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center -mb-24 -mt-32">
           <img
             src={TrabalhadorDaUltimaHora}
             alt="Imagem"
@@ -86,7 +86,7 @@ export default function NossosTrabalhos() {
       {/* =========== */}
       {/* Bazar Centro Espírita Solar de Jesus */}
       <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
-        <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center mb-8">
+        <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center mb-8 -mt-28">
           <img
             src={SolarDeJesus}
             alt="Imagem"
@@ -120,7 +120,7 @@ export default function NossosTrabalhos() {
       {/* Evangelização Infantil */}
 
       <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
-        <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center mb-8">
+        <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center mb-8 -mt-16">
           <img
             src={evangelizacao}
             alt="Imagem"
@@ -151,7 +151,7 @@ export default function NossosTrabalhos() {
 
       
       <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
-        <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center -mb-32">
+        <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center -mb-32 -mt-32">
           <img
             src={assistenciasocial}
             alt="Imagem"

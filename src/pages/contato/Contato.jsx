@@ -41,6 +41,7 @@ export default function Contato() {
 
 
         {/* Mapa incorporado */}
+        <h1 className="text-3xl font-bold text-center mb-8 mt-28">Nossa Localização</h1>
         <div className="mt-8">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30567.241047454525!2d-43.86806810711937!3d-16.731584744450497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab5499cbd6ed4b%3A0x252e94449b8c3ad0!2sInstitui%C3%A7%C3%A3o%20Esp%C3%ADrita%20De%20Caridade%20Solar%20De%20Jesus!5e0!3m2!1spt-BR!2sbr!4v1708212316098!5m2!1spt-BR!2sbr" width="100%" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
         </div>

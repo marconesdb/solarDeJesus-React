@@ -25,7 +25,8 @@ const NossaHistoria = () => {
                 <h2 className="text-xl font-semibold text-gray-900 mb-2">Francisco Soares da Silva</h2>
               </div>
             </div>
-            <div className="text-justify"> 
+            <div className="text-justify">
+              <h1 className='text-xl font-semibold text-gray-900 mb-2'>Nossa História</h1> 
               <p className="mt-3 text-lg text-gray-500">
               No ano de 1930, Francisco Soares da Silva, conhecido como Chico Sapateiro, muda-se para Belo Horizonte, onde conhece o médium Antônio Loreto Flores, presidente do Centro Espírita Amor e Caridade. Lá desenvolve suas faculdades mediúnicas. Em uma das sessões mediúnicas, o Espírito Bezerra de Menezes, através do médium Flores, redigiu uma carta ao Chico Sapateiro. Nela revelava que o mesmo tinha uma missão nas terras do Norte de Minas: fundar um a casa espírita sob a proteção espiritual de Teresa de Jesus.
 
