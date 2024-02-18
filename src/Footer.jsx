@@ -14,11 +14,11 @@ export default function Footer() {
             CEP: 39402-547 - Montes Claros - MG/BR
           </p>
           <p>CPNJ 21.355.599/0001-56</p>
-          <p>Telefone: (38) 3214-2878/
+          <p>Telefone: (38) 3214-2878</p>
 
-            Alfredo Lorenço: (38) 99979-9996/
-
-            Cláudio Mendes: (38) 99166-0454</p>
+            <p>Alfredo Lorenço: (38) 99979-9996</p>
+            <p>Cláudio Mendes: (38) 99166-0454</p>
+            <p>centroespiritasolardejesus@gmail.com</p>
         </div>
       </div>
     </footer>

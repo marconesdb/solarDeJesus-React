@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 
 export default function ArtigosEspiritas() {
   return (
-    <div className="mx-4 md:mx-auto"> {/* Adicionando margens laterais na versão mobile e centralizando na versão desktop */}
+    <div> {/* Adicionando margens laterais na versão mobile e centralizando na versão desktop */}
       <Navbar />
       <div>
         <h1 className='text-center mt-28 font-bold'>Artigo - A Caridade Segundo Jesus: Benevolência, Indulgência e Perdão das Ofensas</h1>
         {/* Container com imagens e texto */}
-        <div className="flex flex-col md:flex-row md:justify-between items-center py-8 container mx-auto border-orange300 border-2 mt-4">
+        <div className="mx-4 md:mx-auto flex flex-col md:flex-row md:justify-between items-center py-8 container mx-auto border-orange300 border-2 mt-4">
           <div className="md:w-1/2 text-center md:text-left">
             <div className="flex flex-wrap justify-center md:justify-start ml-4">
               <img src="https://via.placeholder.com/150" alt="Imagem 1" className="w-48 h-48 mx-2 mb-2" />
@@ -80,5 +80,6 @@ export default function ArtigosEspiritas() {
 
       <Footer />
     </div>
+    
   );
 }
