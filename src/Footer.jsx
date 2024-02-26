@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -15,10 +16,21 @@ export default function Footer() {
           </p>
           <p>CPNJ 21.355.599/0001-56</p>
           <p>Telefone: (38) 3214-2878</p>
-
-            <p>Alfredo Lorenço: (38) 99979-9996</p>
-            <p>Cláudio Mendes: (38) 99166-0454</p>
-            <p>centroespiritasolardejesus@gmail.com</p>
+          <p>Alfredo Lorenço: (38) 99979-9996</p>
+          <p>Cláudio Mendes: (38) 99166-0454</p>
+          <p>centroespiritasolardejesus@gmail.com</p>
+          {/* Ícones de redes sociais */}
+          <div className="flex justify-center md:justify-start mt-4">
+            <a href="https://www.facebook.com/seu_facebook" className="text-gray-400 hover:text-blue-500 mr-4">
+              <FaFacebookF size={24} />
+            </a>
+            <a href="https://www.instagram.com/seu_instagram" className="text-gray-400 hover:text-pink-500 mr-4">
+              <FaInstagram size={24} />
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=seu_numero_de_telefone" className="text-gray-400 hover:text-green-500">
+              <FaWhatsapp size={24} />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
