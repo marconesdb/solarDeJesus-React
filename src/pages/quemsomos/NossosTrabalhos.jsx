@@ -14,7 +14,7 @@ export default function NossosTrabalhos() {
     <div>
       <Navbar />
       {/* Voluntários da Alegria */}
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
+      <section className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
         <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center mb-8">
           <img
             src={VoluntariosDaAlegria}
@@ -43,7 +43,7 @@ export default function NossosTrabalhos() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
       {/* Fim - Voluntários da Alegria */}
 
       {/* ====== */}
@@ -51,7 +51,7 @@ export default function NossosTrabalhos() {
 
 
       {/* Trabalhadores da Última Hora */}
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
+      <section className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
         <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center -mb-24 -mt-32">
           <img
             src={TrabalhadorDaUltimaHora}
@@ -80,12 +80,12 @@ export default function NossosTrabalhos() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
       {/* Fim - Trabalhadores da Última Hora */}
 
       {/* =========== */}
       {/* Bazar Centro Espírita Solar de Jesus */}
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
+      <section className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
         <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center mb-8 -mt-28">
           <img
             src={SolarDeJesus}
@@ -114,12 +114,12 @@ export default function NossosTrabalhos() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
       {/* Fim - Bazar Centro Espírita Solar de Jesus */}
 
       {/* Evangelização Infantil */}
 
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
+      <section className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
         <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center mb-8 -mt-16">
           <img
             src={evangelizacao}
@@ -140,7 +140,7 @@ export default function NossosTrabalhos() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
        {/* Fim - Evangelização Infantil */}
 
        {/* ============= */}
@@ -150,7 +150,7 @@ export default function NossosTrabalhos() {
       {/* Assistência Social */}
 
       
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
+      <section className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
         <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center -mb-32 -mt-32">
           <img
             src={assistenciasocial}
@@ -179,7 +179,7 @@ export default function NossosTrabalhos() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Fim - Assistência Social */}
 
@@ -189,7 +189,7 @@ export default function NossosTrabalhos() {
 
      {/* O passe Espírita */}
       
-     <div className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
+     <section className="flex flex-col md:flex-row justify-center items-center md:items-start p-4 md:p-8 mt-24">
         <div className="w-full md:w-1/2 md:pr-4 flex justify-center items-center">
           {/* <img
             src={assistenciasocial}
@@ -206,13 +206,13 @@ export default function NossosTrabalhos() {
 
               <strong>**Oração pelos Enfermos** </strong>Deus Pai, Todo-Poderoso, Vós que sois a fonte da vida e da cura, olhai com misericórdia para os vossos filhos e filhas que sofrem de enfermidades do corpo e da alma. Tocai-lhes com a vossa mão poderosa, e curai-lhes de todas as suas dores e sofrimentos. Dá-lhes a força para enfrentarem a sua doença, e a esperança de um dia serem curados. Envolve-os no vosso amor misericordioso, e dai-lhes a paz que só Vós podeis dar. Pedimos por todos os enfermos do mundo, especialmente por aqueles que estão mais necessitados: pelos que sofrem de doenças graves, pelos que estão em fase terminal, pelos que vivem com dor crônica, pelos que são discriminados por causa da sua doença, e pelos que não têm acesso aos cuidados de saúde de que precisam. Ouvi a nossa súplica, e dai-lhes a cura que tanto anseiam. Em nome de Jesus Cristo, Nosso Senhor. Amém!
             </p>
-            <img src={PasseEspirita} alt="" />
+            <img src={PasseEspirita} alt="Passe Espírita" />
             <p>
             Ilustração do passe Espírita
             </p>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Fim - Passe Espírita */}
 

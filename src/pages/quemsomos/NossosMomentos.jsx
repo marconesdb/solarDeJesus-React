@@ -32,8 +32,8 @@ export default function NossosMomentos() {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto py-8 px-4">
-        <h1 className="text-3xl font-semibold text-center mb-8 mt-28">Nossos Momentos</h1>
+      <main className="container mx-auto py-8 px-4">
+        <h1 className="text-xl font-bold text-center mb-8 mt-28">Nossos Momentos</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {videos.map((video) => (
             <div key={video.id} className="relative">
@@ -46,7 +46,7 @@ export default function NossosMomentos() {
             </div>
           ))}
         </div>
-      </div>
+      </main>
       {modalOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-900 bg-opacity-75">
           <div className="relative w-full max-w-screen-lg h-full">

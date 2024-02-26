@@ -40,13 +40,15 @@ export default function Home() {
       <Modal />
        <Banner />
       {/* IMG - Oração */}
-      <h1 className="flex justify-center items-center font-bold text-3xl">Momento de Oração</h1>
-      <p className="flex justify-center items-center  text-2xl">Creche - Solar de Jesus</p>
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex justify-center">
-          <img src={myImage} alt="Imagem" className="max-w-full h-auto" />
+      <section>
+        <h1 className="flex justify-center items-center font-bold text-3xl">Momento de Oração</h1>
+        <p className="flex justify-center items-center  text-2xl">Creche - Solar de Jesus</p>
+        <div className="container mx-auto px-4 py-8">
+          <div className="flex justify-center">
+            <img src={myImage} alt="Imagem" className="max-w-full h-auto" />
+          </div>
         </div>
-      </div>
+      </section>
       {/* Fim - IMG Oração */}
       
       <Footer />

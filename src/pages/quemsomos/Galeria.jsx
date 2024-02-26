@@ -25,19 +25,19 @@ const Galeria = () => {
     return (
         <div className="flex flex-col min-h-screen">
             <Navbar />
-            <div className="container mx-auto px-4 py-8 flex-grow">
-                <h2 className="text-2xl font-bold mb-4">Galeria de Fotos Solar de Jesus</h2>
-                <div className="sm:hidden"> {/* Visível apenas em dispositivos móveis */}
-                    <ImageGallery items={images1} showThumbnails={false} />
+            <main>
+                <div className="container mx-auto px-4 py-8 flex-grow">
+                    <h1 className="text-xl font-bold mt-20 mb-4 text-center">Galeria de Fotos - Solar de Jesus</h1>
+                    <div className="sm:hidden"> {/* Visível apenas em dispositivos móveis */}
+                        <ImageGallery items={images1} showThumbnails={false} />
+                    </div>
+                    <div className="hidden sm:block"> {/* Visível apenas em dispositivos desktop */}
+                        <ImageGallery items={images1} />
+                    </div>
+                    {/* Adicione aqui a segunda galeria de fotos, se necessário */}
+                
                 </div>
-                <div className="hidden sm:block"> {/* Visível apenas em dispositivos desktop */}
-                    <ImageGallery items={images1} />
-                </div>
-
-                {/* Adicione aqui a segunda galeria de fotos, se necessário */}
-
-               
-            </div>
+            </main>
             <Footer />
         </div>
     );
