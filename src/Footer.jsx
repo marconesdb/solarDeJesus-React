@@ -21,15 +21,16 @@ export default function Footer() {
           <p>centroespiritasolardejesus@gmail.com</p>
           {/* Ícones de redes sociais */}
           <div className="flex justify-center md:justify-start mt-4">
-            <a href="https://www.facebook.com/seu_facebook" className="text-gray-400 hover:text-blue-500 mr-4">
+            <a href="https://www.facebook.com/solardejesus/" target='_blank' className="text-gray-400 hover:text-blue-500 mr-4">
               <FaFacebookF size={24} />
             </a>
-            <a href="https://www.instagram.com/seu_instagram" className="text-gray-400 hover:text-pink-500 mr-4">
+            <a href="https://www.instagram.com/voluntariasdaalegria1/" target='_blank' className="text-gray-400 hover:text-pink-500 mr-4">
               <FaInstagram size={24} />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=seu_numero_de_telefone" className="text-gray-400 hover:text-green-500">
-              <FaWhatsapp size={24} />
+            <a href="https://wa.me/5538999799996" target='_blank' className="text-gray-400 hover:text-green-500">
+            <FaWhatsapp size={24} />
             </a>
+
           </div>
         </div>
       </div>
