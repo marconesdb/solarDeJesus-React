@@ -33,16 +33,36 @@ import audioEnglish1 from './Audio-Orações/O God, our Father.mp3';
 import audioEspanol1 from './Audio-Orações/Oh Dios, Padre nuestro.mp3';
 import audioEnglish2 from './Audio-Orações/O Great Creator of the Universe.mp3';
 import audioEspanol2 from './Audio-Orações/Oh Gran Creador del Universo.mp3';
-import audioEspanol18 from './Audio-Orações/Oración de Esperanza.mp3';
-import audioEnglish18 from './Audio-Orações/Prayer of Hope.mp3';
+import audioEspanol13 from './Audio-Orações/Oración.mp3';
+import audioEnglish13 from './Audio-Orações/Prayer.mp3';
+
+
+
+import audioEspanol14 from './Audio-Orações/Acto de fe.mp3';
+import audioEnglish14 from './Audio-Orações/Act of faith.mp3';
+import audioEspanol15 from './Audio-Orações/Oración para pedir perdón.mp3';
+import audioEnglish15 from './Audio-Orações/Prayer to ask for forgiveness.mp3';
+import audioEspanol16 from './Audio-Orações/Chico Xavier- Espanhol.mp3';
+import audioEnglish16 from './Audio-Orações/Chico Xavier - Inglês.mp3';
 import audioEspanol17 from './Audio-Orações/Oración por los Niños del Mundo-Espanhol.mp3';
 import audioEnglish17 from './Audio-Orações/Prayer for the Children of the World - Inglês.mp3';
+import audioEspanol18 from './Audio-Orações/Oración de Esperanza.mp3';
+import audioEnglish18 from './Audio-Orações/Prayer of Hope.mp3';
 import audioEspanol19 from './Audio-Orações/Oración por el cultivo del amor.mp3';
 import audioEnglish19 from './Audio-Orações/Prayer for the Cultivation of Love.mp3';
 import audioEspanol20 from './Audio-Orações/Oración para que el hombre orgulloso supere sus prejuicios.mp3';
 import audioEnglish20 from './Audio-Orações/Prayer for the proud man to overcome his prejudices.mp3';
 import audioEspanol21 from './Audio-Orações/Oración por un rayo de luz en el mundo-Espanhol.mp3';
 import audioEnglish21 from './Audio-Orações/Prayer for a ray of light in the world-Inglês.mp3';
+import audioEspanol22 from './Audio-Orações/Madres desesperadas.mp3';
+import audioEnglish22 from './Audio-Orações/Mothers in Despair.mp3';
+import audioEspanol23 from './Audio-Orações/Oración por lá ansiedad.mp3';
+import audioEnglish23 from './Audio-Orações/Prayer for Anxiety.mp3';
+import audioEspanol24 from './Audio-Orações/Oración de Unidad.mp3';
+import audioEnglish24 from './Audio-Orações/Prayer of Unity.mp3';
+
+
+
 export default function Oracoes() {
   return (
     <div>
@@ -715,23 +735,85 @@ export default function Oracoes() {
         <div className="text-center md:text-left justify-center items-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
           <p className="text-justify">
-            Ó Deus, nosso Pai,
+           <p><b>Oração</b></p>
+          No silêncio da alma, ecoa a prece,
+          Uma sinfonia suave que eleva o ser.
+          É o encontro íntimo com o divino,
+          Um diálogo sagrado, puro e sincero a tecer.
 
-            Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
+          Na oração, as asas da esperança se abrem,
+          Levando-nos além das fronteiras terrenas.
+          É o refúgio da alma em momentos de aflição,
+          Onde encontramos paz nas horas mais serenas.
 
-            Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
+          Nas palavras sussurradas ao universo,
+          Reside o poder de transformação.
+          É um portal que nos conecta ao infinito,
+          Guiando-nos com amor e compaixão.
 
-            No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
+          Na oração, o coração se abre em humildade,
+          Reconhecendo nossa fragilidade e fé.
+          É a ponte que une o humano ao divino,
+          Um laço etéreo que nos conduz à harmonia e à fé.
 
-            Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-
-            Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
+          Que em cada prece, encontremos luz e força,
+          Para enfrentar os desafios do caminho.
+          Que a oração seja nosso farol na escuridão,
+          E a expressão mais pura do amor divino.
             <br />
             <b>Prayer in English:</b>
-            O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
+            <p><b>Prayer</b></p>
+          In the silence of the soul, the prayer echoes,
+          A gentle symphony that elevates the being.
+          It is an intimate encounter with the divine,
+          A sacred, pure and sincere dialogue to be had.
+
+          In prayer, the wings of hope open,
+          Taking us beyond earthly borders.
+          It is the soul's refuge in times of distress,
+          Where we find peace in the most serene hours.
+
+          In words whispered to the universe,
+          There lies the power of transformation.
+          It is a portal that connects us to infinity,
+          Guiding us with love and compassion.
+
+          In prayer, the heart opens in humility,
+          Recognizing our fragility and faith.
+          It is the bridge that unites the human with the divine,
+          An ethereal bond that leads us to harmony and faith.
+
+          That in every prayer, we find light and strength,
+          To face the challenges along the way.
+          May prayer be our beacon in the darkness,
+          It is the purest expression of divine love.
             <br />
             <b>Oración en español:</b>
-            Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+             <p><b>Oración</b></p>
+          En el silencio del alma resuena la oración,
+          Una suave sinfonía que eleva el ser.
+          Es un encuentro íntimo con lo divino,
+          Se debe mantener un diálogo sagrado, puro y sincero.
+
+          En la oración se abren las alas de la esperanza,
+          Llevándonos más allá de las fronteras terrenales.
+          Es el refugio del alma en tiempos de angustia,
+          Donde encontramos la paz en las horas más serenas.
+
+          En palabras susurradas al universo,
+          Ahí reside el poder de la transformación.
+          Es un portal que nos conecta con el infinito,
+          Guiándonos con amor y compasión.
+
+          En la oración, el corazón se abre en humildad,
+          Reconociendo nuestra fragilidad y fe.
+          Es el puente que une lo humano con lo divino,
+          Un vínculo etéreo que nos lleva a la armonía y la fe.
+
+          Que en cada oración encontremos luz y fuerza,
+          Para afrontar los retos del camino.
+          Que la oración sea nuestro faro en la oscuridad,
+          Es la expresión más pura del amor divino.
           </p>
 
           <p><b><em>Oração em áudio: Português</em></b></p>
@@ -741,12 +823,12 @@ export default function Oracoes() {
           </audio>
           <p><b><em>Audio Prayer: English</em></b></p>
           <audio controls>
-            <source src={audioEnglish1} type="audio/mp3" />
+            <source src={audioEnglish13} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
           <p><b><em>Oración en audio: español</em></b></p>
           <audio controls>
-            <source src={audioEspanol1} type="audio/mp3" />
+            <source src={audioEspanol13} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
         </div>
@@ -769,23 +851,19 @@ export default function Oracoes() {
         <div className="text-center md:text-left justify-center items-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
           <p className="text-justify">
-            Ó Deus, nosso Pai,
+                <p><b>Ato de Fé</b></p>
 
-            Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-
-            Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-
-            No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-
-            Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-
-            Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
+            Em todo instante Confio em Deus. No que faço Penso em Deus. Com quem vivo Amo a Deus. Por onde sigo. Sigo com Deus. No que acontece. Deus faz o melhor. Tudo o que tenho, é bênção de Deus. EMMANUEL (Chico Xavier)  
             <br />
-            <b>Prayer in English:</b>
-            O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
+            <b>Prayer in English:</b><br />
+            <b>Act of Faith</b><br />
+
+            At all times I trust in God. In what I do I think about God. Who I live with I love God. Where do I follow. I continue with God. In what happens. God does the best. Everything I have is a blessing from God. EMMANUEL (Chico Xavier) 
             <br />
-            <b>Oración en español:</b>
-            Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+            <b>Oración en español:</b><br />
+            <b>Acto de Fe</b><br />
+
+            En todo momento confío en Dios. En lo que hago pienso en Dios. Con quien vivo, amo a Dios. ¿Adónde sigo? Sigo con Dios. En lo que pasa. Dios hace lo mejor. Todo lo que tengo es una bendición de Dios. EMMANUEL (Chico Xavier) 
           </p>
 
           <p><b><em>Oração em áudio: Português</em></b></p>
@@ -795,12 +873,12 @@ export default function Oracoes() {
           </audio>
           <p><b><em>Audio Prayer: English</em></b></p>
           <audio controls>
-            <source src={audioEnglish1} type="audio/mp3" />
+            <source src={audioEnglish14} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
           <p><b><em>Oración en audio: español</em></b></p>
           <audio controls>
-            <source src={audioEspanol1} type="audio/mp3" />
+            <source src={audioEspanol14} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
         </div>
@@ -819,23 +897,55 @@ export default function Oracoes() {
         <div className="text-center md:text-left justify-center items-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
           <p className="text-justify">
-            Ó Deus, nosso Pai,
+                <b>Oração pra pedir perdão</b><br />
 
-            Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
+            Ó Deus, Pai de amor e bondade, Eu venho a Ti hoje para pedir perdão.
 
-            Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
+            Eu peço perdão por todas as vezes que errei, Por todas as vezes que magoei os outros, Por todas as vezes que não fui fiel a Ti.
 
-            No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
+            Eu sei que o perdão é um dom, E eu o peço com humildade.
 
-            Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
+            Eu reconheço que preciso do Teu perdão, Para que eu possa ser livre do peso do pecado, E para que eu possa viver em paz.
 
-            Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
+            Eu também peço perdão por todas as vezes Em que eu não perdoei aqueles que me feriram.
+
+            Eu sei que o perdão é um processo, Mas eu estou disposto a perdoar, Para que eu possa ser livre do ódio e do ressentimento.
+
+            Abençoa-me com o Teu perdão, E ajuda-me a ser um instrumento do Teu amor. Amém. 
             <br />
-            <b>Prayer in English:</b>
-            O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
+            <b>Prayer in English:</b><br />
+               <b>Prayer to ask for forgiveness</b><br />
+
+            O God, Father of love and kindness, I come to You today to ask for forgiveness.
+
+            I ask forgiveness for all the times I made mistakes, For all the times I hurt others, For all the times I wasn't faithful to You.
+
+            I know that forgiveness is a gift, And I ask it with humility.
+
+            I recognize that I need Your forgiveness, So that I can be free from the weight of sin, And so that I can live in peace.
+
+            I also ask for forgiveness every time In which I have not forgiven those who hurt me.
+
+            I know forgiveness is a process, But I'm willing to forgive, So that I can be free from hate and resentment.
+
+            Bless me with Your forgiveness, And help me to be an instrument of Your love. Amen. 
             <br />
-            <b>Oración en español:</b>
-            Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+            <b>Oración en español:</b><br />
+                 <b>Oración para pedir perdón</b><br />
+
+            Oh Dios, Padre del amor y de la bondad, Vengo a Ti hoy para pedirte perdón.
+
+            Pido perdón por todas las veces que cometí errores, Por todas las veces que lastimé a otros, Por todas las veces que no te fui fiel.
+
+            Sé que el perdón es un regalo, Y lo pido con humildad.
+
+            Reconozco que necesito tu perdón, Para que pueda ser libre del peso del pecado, Y para que pueda vivir en paz.
+
+            Yo también pido perdón cada vez. En el que no he perdonado a los que me hicieron daño.
+
+            Sé que el perdón es un proceso, Pero estoy dispuesto a perdonar, Para poder estar libre del odio y del resentimiento.
+
+            Bendíceme con tu perdón, Y ayúdame a ser un instrumento de Tu amor. Amén. 
           </p>
 
           <p><b><em>Oração em áudio: Português</em></b></p>
@@ -845,12 +955,12 @@ export default function Oracoes() {
           </audio>
           <p><b><em>Audio Prayer: English</em></b></p>
           <audio controls>
-            <source src={audioEnglish1} type="audio/mp3" />
+            <source src={audioEnglish15} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
           <p><b><em>Oración en audio: español</em></b></p>
           <audio controls>
-            <source src={audioEspanol1} type="audio/mp3" />
+            <source src={audioEspanol15} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
         </div>
@@ -870,23 +980,21 @@ export default function Oracoes() {
         <div className="text-center md:text-left justify-center items-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
           <p className="text-justify">
-            Ó Deus, nosso Pai,
+              Senhor, ensina-nos a orar sem esquecer o trabalho, a dar sem olhar a quem, a servir sem perguntar até quando, a sofrer sem magoar seja a quem for, a progredir sem perder a simplicidade, a semear o bem sem pensar nos resultados, a desculpar sem condições, a marchar para a frente sem contar os obstáculos, a ver sem malícia, a escutar sem corromper os assuntos, a falar sem ferir, a compreender o próximo sem exigir entendimento, a respeitar os semelhantes sem reclamar consideração, a dar o melhor de nós, além da execução do próprio dever sem cobrar taxas de reconhecimento.
 
-            Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
+              Senhor, ensina-nos a orar sem esquecer o trabalho, a dar sem olhar a quem, a servir sem perguntar até quando, a sofrer sem magoar seja a quem for, a progredir sem perder a simplicidade, a semear o bem sem pensar nos resultados, a desculpar sem condições, a marchar para a frente sem contar os obstáculos, a ver sem malícia, a escutar sem corromper os assuntos, a falar sem ferir, a compreender o próximo sem exigir entendimento, a respeitar os semelhantes sem reclamar consideração, a dar o melhor de nós, além da execução do próprio dever sem cobrar taxas de reconhecimento.
 
-            Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-
-            No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-
-            Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-
-            Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
+              Senhor, fortalece em nós a paciência para com as dificuldades dos outros, assim como precisamos da paciência dos outros para com as nossas próprias dificuldades. Ajuda-nos para que a ninguém façamos aquilo que não desejamos para nós. Auxilia-nos sobretudo a reconhecer que a nossa felicidade mais alta será invariavelmente aquela de cumprir os desígnios, onde e como queiras, hoje, agora e sempre. Amém! pelo Espírito<i> Emmanuel</i>, psicografia de <i>Francisco Cândido Xavier</i>  
             <br />
-            <b>Prayer in English:</b>
-            O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
+            <b>Prayer in English:</b><br />
+            Sir, teach us to pray without forgetting work, To give, without looking who, to serve without asking until when, to suffer without hurting anyone, to progress without losing simplicity, to sow good without thinking about the results, to apologize without conditions, to march forward without counting the obstacles, to see without malice, to listen without corrupting matters, to speak without hurting, to understand others without demanding understanding, to respect others without demanding consideration, to do our best, in addition to performing our own duties without charging recognition fees.
+            Sir, teach us to pray without forgetting work, To give, without looking who, to serve without asking until when, to suffer without hurting anyone, to progress without losing simplicity, to sow good without thinking about the results, to apologize without conditions, to march forward without counting the obstacles, to see without malice, to listen without corrupting matters, to speak without hurting, to understand others without demanding understanding, to respect others without demanding consideration, to do our best, in addition to performing our own duties without charging recognition fees.
+
+            Sir, strengthens our patience with difficulties of others, just as we need the patience of others to our own difficulties. Help us so that no one does that to anyone that we don't want for ourselves. Above all, it helps us to recognize that our higher happiness will invariably be that of fulfilling the designs, where and however you want, today, now and always. Amen! by the Spirit <i>Emmanuel</i>, psychography by <i>Francisco Cândido Xavier </i>
+   
             <br />
-            <b>Oración en español:</b>
-            Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+            <b>Oración en español:</b><br />
+            Señor, enséñanos a orar sin olvidar el trabajo, Para dar, sin mirar a quién, servir sin preguntar hasta cuando, sufrir sin lastimar a nadie, progresar sin perder la sencillez, sembrar el bien sin pensar en los resultados, para disculparse sin condiciones, marchar hacia adelante sin contar los obstáculos, para ver sin malicia, escuchar sin corromper las cosas, hablar sin lastimar, comprender a los demás sin exigir comprensión, respetar a los demás sin exigir consideración, hacer lo mejor que podamos, además de realizar nuestras propias tareas sin cobrar tasas de reconocimiento. Señor, fortalece nuestra paciencia ante las dificultades de los demás, así como necesitamos la paciencia de los demás a nuestras propias dificultades. Ayúdanos a que nadie le haga eso a nadie. que no queremos para nosotros. Sobre todo, nos ayuda a reconocer que nuestra una mayor felicidad será invariablemente el de cumplir los diseños, dónde y como quieras, hoy, ahora y siempre. ¡Amén! por el Espíritu <i>Emmanuel</i>, psicografía por <i>Francisco Cándido Xavier</i> 
           </p>
 
           <p><b><em>Oração em áudio: Português</em></b></p>
@@ -896,12 +1004,12 @@ export default function Oracoes() {
           </audio>
           <p><b><em>Audio Prayer: English</em></b></p>
           <audio controls>
-            <source src={audioEnglish1} type="audio/mp3" />
+            <source src={audioEnglish16} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
           <p><b><em>Oración en audio: español</em></b></p>
           <audio controls>
-            <source src={audioEspanol1} type="audio/mp3" />
+            <source src={audioEspanol16} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
         </div>
@@ -1284,23 +1392,19 @@ export default function Oracoes() {
         <div className="text-center md:text-left justify-center items-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
           <p className="text-justify">
-            Ó Deus, nosso Pai,
+                <b>Mães em Desespero</b><br />
 
-            Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-
-            Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-
-            No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-
-            Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-
-            Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
+            Pai, Venho a Ti hoje em nome de todas as mães que se encontram em desespero. Elas estão passando por momentos difíceis, e não sabem como encontrar a saída. Elas estão cansadas, sobrecarregadas, e às vezes até sem esperança. Pai, Entra no coração dessas mães. Dá-lhes a paz que elas precisam. Dá-lhes a força que elas precisam. Dá-lhes a sabedoria que elas precisam. Pai, Mostra-lhes o Teu amor. Mostra-lhes que Tu estás com elas. Que Tu nunca as abandonarás. Pai, Sê a luz que guia esses seus filhos. Sê a esperança que lhes dá forças para seguir em frente. Sê o refúgio que lhes dá descanso. 
             <br />
-            <b>Prayer in English:</b>
-            O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
+            <b>Prayer in English:</b><br />
+              <b>Mothers in Despair</b><br />
+
+            Father, I come to You today in the name of all mothers who are in despair. They are going through difficult times, and they don't know how to find a way out. They are tired, overwhelmed, and sometimes even hopeless. Father, Get into the hearts of these mothers. Give them the peace they need. Give them the strength they need. Give them the wisdom they need. Father, Show them Your love. Show them that You are with them. That You will never abandon them. Father, Be the light that guides these children of yours. Be the hope that gives them strength to move forward. Be the refuge that gives them rest. 
             <br />
-            <b>Oración en español:</b>
-            Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+            <b>Oración en español:</b><br />
+                  <b>Madres desesperadas</b><br />
+
+            Padre, Vengo a Ti hoy en nombre de todas las madres que están desesperadas. Están pasando por momentos difíciles y no saben cómo encontrar una salida. Están cansados, abrumados y, a veces, incluso desesperados. Padre, Métete en el corazón de estas madres. Dales la paz que necesitan. Dales la fuerza que necesitan. Dales la sabiduría que necesitan. Padre, Muéstrales tu amor. Muéstrales que estás con ellos. Que nunca los abandonarás. Padre, Sé la luz que guíe a estos hijos tuyos. Sé la esperanza que les da fuerzas para seguir adelante. Sé el refugio que les dé descanso. 
           </p>
 
           <p><b><em>Oração em áudio: Português</em></b></p>
@@ -1310,12 +1414,12 @@ export default function Oracoes() {
           </audio>
           <p><b><em>Audio Prayer: English</em></b></p>
           <audio controls>
-            <source src={audioEnglish1} type="audio/mp3" />
+            <source src={audioEnglish22} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
           <p><b><em>Oración en audio: español</em></b></p>
           <audio controls>
-            <source src={audioEspanol1} type="audio/mp3" />
+            <source src={audioEspanol22} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
         </div>
@@ -1335,23 +1439,60 @@ export default function Oracoes() {
         <div className="text-center md:text-left justify-center items-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
           <p className="text-justify">
-            Ó Deus, nosso Pai,
+                        
 
-            Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
+            <b>Oração pela ansiedade</b><br />
 
-            Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
+            Deus, Pai de amor e misericórdia, Vinde em socorro daqueles que passam pela ansiedade. Eles se sentem perdidos, confusos e desorientados. O medo e a preocupação os dominam, E eles não conseguem encontrar paz.
 
-            No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
+            Senhor, Renovai a sua paz em seus corações. Afastai de seus pensamentos as preocupações e os medos. Dê-lhes a certeza de que não estão sozinhos, E que vocês estão sempre com eles.
 
-            Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
+            Que eles possam sentir o vosso amor e a vossa presença, E que isso lhes dê força e coragem para enfrentarem os desafios.
 
-            Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
+            Senhor, Dai-lhes a graça de confiarem em vós, E de saberem que vocês têm o controle de tudo. Que eles possam descansar em vossos braços, E encontrar a paz que só vocês podem dar.
+
+            Em nome de Jesus, Amém.
+
+            **(Você pode acrescentar o nome de uma pessoa específica ou de um grupo de pessoas que você deseja orar.)**
+            Essa oração pode ser feita individualmente ou em grupo. Ela pode ser repetida quantas vezes forem necessárias, até que a ansiedade seja aliviada.
+
+            Além da oração, é importante que as pessoas que sofrem de ansiedade busquem ajuda profissional. Um psicólogo ou psiquiatra poderá ajudá-los a entender a origem da sua ansiedade e a desenvolver estratégias para lidar com ela. 
             <br />
-            <b>Prayer in English:</b>
-            O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
+            <b>Prayer in English:</b><br />
+                <b>Prayer for anxiety</b><br />
+
+            God, Father of love and mercy, Come to the aid of those experiencing anxiety. They feel lost, confused and disoriented. Fear and worry overwhelm them, And they can't find peace.
+
+            Sir, Renew your peace in their hearts. Keep worries and fears out of your thoughts. Give them reassurance that they are not alone, And that you are always with them.
+
+            May they feel your love and your presence, And may this give them strength and courage to face challenges.
+
+            Sir, Give them the grace to trust in you, And knowing that you have control over everything. May they rest in your arms, And find the peace that only you can give.
+
+            In the name of Jesus, Amen.
+
+            **(You can add the name of a specific person or group of people you want to pray for.)**
+            This prayer can be done individually or in a group. It can be repeated as many times as necessary until the anxiety is relieved.
+
+            In addition to prayer, it is important that people suffering from anxiety seek professional help. A psychologist or psychiatrist can help you understand the origin of your anxiety and develop strategies to deal with it. 
             <br />
-            <b>Oración en español:</b>
-            Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+            <b>Oración en español:</b><br />
+               <b>Oración por la ansiedad</b><br />
+
+            Dios, Padre del amor y de la misericordia, Acuda en ayuda de quienes experimentan ansiedad. Se sienten perdidos, confundidos y desorientados. El miedo y la preocupación los abruman, Y no pueden encontrar la paz.
+
+            Señor, Renueva tu paz en sus corazones. Mantenga las preocupaciones y los miedos fuera de sus pensamientos. Dales la seguridad de que no están solos, Y que siempre estás con ellos.
+
+            Que sientan tu amor y tu presencia, Y que esto les dé fuerza y ​​coraje para afrontar los desafíos.
+
+            Señor, Dales la gracia de confiar en ti, Y saber que tienes control sobre todo. Que descansen en tus brazos, Y encuentra la paz que sólo tú puedes dar.
+
+            En nombre de Jesús, Amén.
+
+            **(Puedes agregar el nombre de una persona o grupo de personas específico por el que quieras orar.)**
+            Esta oración se puede hacer individualmente o en grupo. Se puede repetir tantas veces como sea necesario hasta aliviar la ansiedad.
+
+            Además de la oración, es importante que las personas que sufren de ansiedad busquen ayuda profesional. Un psicólogo o psiquiatra puede ayudarte a comprender el origen de tu ansiedad y desarrollar estrategias para afrontarla. 
           </p>
 
           <p><b><em>Oração em áudio: Português</em></b></p>
@@ -1361,12 +1502,12 @@ export default function Oracoes() {
           </audio>
           <p><b><em>Audio Prayer: English</em></b></p>
           <audio controls>
-            <source src={audioEnglish1} type="audio/mp3" />
+            <source src={audioEnglish23} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
           <p><b><em>Oración en audio: español</em></b></p>
           <audio controls>
-            <source src={audioEspanol1} type="audio/mp3" />
+            <source src={audioEspanol23} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
         </div>
@@ -1386,23 +1527,37 @@ export default function Oracoes() {
         <div className="text-center md:text-left justify-center items-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
           <p className="text-justify">
-            Ó Deus, nosso Pai,
+                <b>Oração da Unidade</b><br />
 
-            Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
+          Deus Criador, Nós nos reunimos hoje para te louvar e te agradecer. Somos um povo diverso, de diferentes origens e culturas, Mas estamos unidos em nossa fé em ti.
 
-            Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
+          Pedimos-te que nos ajudes a viver em paz e harmonia, A respeitar uns aos outros, E a trabalhar juntos para um mundo melhor.
 
-            No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
+          Abençoa nossas famílias e amigos, E guia-nos em nossos caminhos. Faz-nos instrumentos da tua paz, E ajuda-nos a construir um mundo onde todos sejam respeitados e amados.
 
-            Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-
-            Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
+          (Adaptado de uma oração do movimento ecumênico): Esta oração é uma forma de expressarmos nosso desejo de unidade e paz no mundo. Ela reconhece a diversidade de nosso povo, mas também a nossa unidade em Cristo. Pedimos a Deus que nos ajude a viver em paz e harmonia, a respeitar uns aos outros, e a trabalhar juntos para um mundo melhor. 
             <br />
-            <b>Prayer in English:</b>
-            O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
+            <b>Prayer in English:</b><br />
+             <b>Prayer of Unity</b> <br />
+
+          Creator God, We gather today to praise you and thank you. We are a diverse people, from different origins and cultures, But we are united in our faith in you.
+
+          We ask you to help us live in peace and harmony, To respect each other, And working together for a better world.
+
+          Bless our families and friends, And guide us on our paths. Make us instruments of your peace, And help us build a world where everyone is respected and loved.
+
+          (Adapted from a prayer from the ecumenical movement): This prayer is a way for us to express our desire for unity and peace in the world. It recognizes the diversity of our people, but also our unity in Christ. We ask God to help us live in peace and harmony, respect each other, and work together for a better world. 
             <br />
-            <b>Oración en español:</b>
-            Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+            <b>Oración en español:</b><br />
+              <b>Oración de Unidad</b><br />
+
+          Dios creador, Nos reunimos hoy para alabarte y agradecerte. Somos un pueblo diverso, de diferentes orígenes y culturas, Pero estamos unidos en nuestra fe en ti.
+
+          Te pedimos que nos ayudes a vivir en paz y armonía, Para respetarnos unos a otros, Y trabajar juntos por un mundo mejor.
+
+          Bendice a nuestras familias y amigos, Y guíanos por nuestros caminos. Haznos instrumentos de tu paz, Y ayúdanos a construir un mundo donde todos sean respetados y amados.
+
+          (Adaptado de una oración del movimiento ecuménico): Esta oración es una manera de expresar nuestro deseo de unidad y paz en el mundo. Reconoce la diversidad de nuestro pueblo, pero también nuestra unidad en Cristo. Le pedimos a Dios que nos ayude a vivir en paz y armonía, respetarnos unos a otros y trabajar juntos por un mundo mejor. 
           </p>
 
           <p><b><em>Oração em áudio: Português</em></b></p>
@@ -1412,12 +1567,12 @@ export default function Oracoes() {
           </audio>
           <p><b><em>Audio Prayer: English</em></b></p>
           <audio controls>
-            <source src={audioEnglish1} type="audio/mp3" />
+            <source src={audioEnglish24} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
           <p><b><em>Oración en audio: español</em></b></p>
           <audio controls>
-            <source src={audioEspanol1} type="audio/mp3" />
+            <source src={audioEspanol24} type="audio/mp3" />
             Seu navegador não suporta o elemento de áudio.
           </audio>
         </div>
